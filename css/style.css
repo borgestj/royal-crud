@@ -1,0 +1,12 @@
+body {
+
+}
+
+body .main {
+    height: calc(100vh - 40px);
+}
+
+.main .home {
+    min-height: 125px;
+    margin: 40px 0;
+}
