@@ -10,3 +10,7 @@ body .main {
     min-height: 125px;
     margin: 40px 0;
 }
+
+.main .table td {
+    padding: 5px 1px !important;
+}

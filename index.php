@@ -19,8 +19,9 @@
         <p>Bem vindo ao sistema de cadastro de usuários.</p>
     </div>
     <div class="container m-3">
-        <a href="register" class="btn btn-primary btn-lg btn-block" role="button">Cadastrar novo Usuário</a>
-        <a href="/list.php" class="btn btn-secondary btn-lg btn-block" role="button">Lista de Usuários</a>
+        <a href="register" class="btn btn-primary btn-lg btn-block" role="button">Cadastrar novo Usuário Pessoa Juridica</a>
+        <a href="register/fisica.php" class="btn btn-primary btn-lg btn-block" role="button">Cadastrar novo Usuário Pessoa Fisica</a>
+        <a href="register/list.php" class="btn btn-secondary btn-lg btn-block" role="button">Lista de Usuários</a>
     </div>
 </div>
 

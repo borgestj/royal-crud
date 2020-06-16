@@ -10,25 +10,31 @@
             <div class="form-group row">
                 <label for="name" class="col-sm-2 col-form-label col-form-label-sm">Nome</label>
                 <div class="col-sm-10">
-                    <input type="text" name="name" id="name" class="form-control" value="" placeholder="Nome da Empresa">
+                    <input type="text" name="name" id="name" class="form-control" value="" placeholder="Nome">
                 </div>
             </div>
             <div class="form-group row">
-                <label for="comercial_name" class="col-sm-2 col-form-label col-form-label-sm">Nome Fantasia</label>
+                <label for="cpf" class="col-sm-2 col-form-label col-form-label-sm">CPF</label>
                 <div class="col-sm-10">
-                    <input type="text" name="comercial_name" id="comercial_name" class="form-control" placeholder="Nome Fantasia">
-                </div>
-            </div>
-            <div class="form-group row">
-                <label for="cnpj" class="col-sm-2 col-form-label col-form-label-sm">CNPJ</label>
-                <div class="col-sm-10">
-                    <input type="text" name="cnpj" id="cnpj" class="form-control" placeholder="CNPJ">
+                    <input type="text" name="cpf" id="cpf" class="form-control" placeholder="CPF">
                 </div>
             </div>
             <div class="form-group row">
                 <label for="city" class="col-sm-2 col-form-label col-form-label-sm">Munícipio</label>
                 <div class="col-sm-10">
                     <input type="text" name="city" id="city" class="form-control" placeholder="Cidade">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="rg" class="col-sm-2 col-form-label col-form-label-sm">RG</label>
+                <div class="col-sm-10">
+                    <input type="text" name="rg" id="rg" class="form-control" placeholder="RG">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="birthday" class="col-sm-2 col-form-label col-form-label-sm">Data de Nascimento</label>
+                <div class="col-sm-10">
+                    <input type="text" name="birthday" id="birthday" class="form-control" placeholder="Data de nascimento">
                 </div>
             </div>
             <h5>Contato</h5>
@@ -45,9 +51,8 @@
                 </div>
             </div>
         </div>
-
         <div class="form-group">
-            <button type="submit" class="btn btn-primary" name="save">Salvar</button>
+            <button type="submit" class="btn btn-primary" name="savepf">Salvar</button>
         </div>
     </form>
 </div>

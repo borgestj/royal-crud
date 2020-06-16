@@ -26,14 +26,11 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Menu</a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item" href="register">Cadastrar usuário</a>
+                                <a class="dropdown-item" href="<?php echo BASEURL; ?>register">Cadastrar usuário Pessoa Juridica</a>
+                                <a class="dropdown-item" href="<?php echo BASEURL; ?>register/fisica.php">Cadastrar usuário Pessoa Fisica</a>
                             </div>
                         </li>
                     </ul>
                 </div>
-                <form class="form-inline my-2 my-lg-0 form-group">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Nome, CPF ou CNPJ" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit" name="list">Buscar</button>
-                </form>
             </div>
         </nav>
